@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/*主题色 !!!!!!!!!!!!!*/
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 按钮颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*每个页面公共css */
+page {
+  background: #f2f2f2;
+  height: 100%;
+  font-size: 30rpx;
+  color: #333;
+}
+.btn {
+  margin-top: 50rpx;
+  height: 95rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background-color: #00b5c4;
+  font-size: 36rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  color: #fff;
+}
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flex-center-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-center-around {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.no-data {
+  text-align: center;
+  line-height: 120rpx;
+  color: #999;
+}
+.goods {
+  padding-bottom: 106rpx;
+}
+.goods .goods-swiper {
+    height: 750rpx;
+}
+.goods .goods-swiper .goods-swiper-img {
+      width: 100%;
+      height: 100%;
+}
+.goods .goods-info {
+    padding: 0 30rpx 42rpx;
+    background: #ffffff;
+}
+.goods .goods-info .goods-info-name {
+      line-height: 40rpx;
+      padding: 20rpx 0;
+}
+.goods .goods-info .good-price {
+      color: #f74c45;
+}
+.goods .goods-info .good-price .font-size-lg {
+        font-size: 48rpx;
+}
+.goods .goods-info .year-limit {
+      width: 119rpx;
+      height: 40rpx;
+      line-height: 40rpx;
+      -webkit-border-radius: 20rpx;
+              border-radius: 20rpx;
+      text-align: center;
+      font-size: 24rpx;
+      color: #fff;
+      background-image: -webkit-linear-gradient(135deg, #f6660c 0%, #ffa065 100%), -webkit-linear-gradient(#ffa065, #ffa065);
+      background-image: -o-linear-gradient(135deg, #f6660c 0%, #ffa065 100%), -o-linear-gradient(#ffa065, #ffa065);
+      background-image: linear-gradient(-45deg, #f6660c 0%, #ffa065 100%), linear-gradient(#ffa065, #ffa065);
+      -webkit-box-shadow: 0px 3px 7px 0px rgba(255, 134, 59, 0.35);
+              box-shadow: 0px 3px 7px 0px rgba(255, 134, 59, 0.35);
+}
+.goods .goods-select {
+    padding: 0 30rpx;
+    height: 100rpx;
+    border-top: 1px solid #e2e2e2;
+    background: #ffffff;
+}
+.goods .goods-select .text-color-grey {
+      margin-left: 50rpx;
+      color: #999;
+}
+.goods .goods-select .icongengduo {
+      font-size: 40rpx;
+}
+.goods .goods-param {
+    margin-top: 20rpx;
+    background: #ffffff;
+}
+.goods .goods-param .goods-param-tit {
+      padding-top: 20rpx;
+      border-bottom: 1px solid #e2e2e2;
+}
+.goods .goods-param .goods-param-tit .tit {
+        line-height: 70rpx;
+}
+.goods .goods-param .goods-param-tit .tit-actived {
+        color: #00b5c4;
+        border-bottom: 2px solid #00b5c4;
+}
+.goods .goods-param .goods-param-process {
+      padding: 50rpx;
+}
+.goods .goods-param .goods-param-process .icongouwuchekong,
+      .goods .goods-param .goods-param-process .iconfuqian,
+      .goods .goods-param .goods-param-process .icondingdan,
+      .goods .goods-param .goods-param-process .iconweb-icon-1 {
+        font-size: 36rpx;
+        padding: 22rpx;
+        margin-right: 16rpx;
+        border: 1px dotted #e2e2e2;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+}
+.goods .goods-param .goods-param-process .iconiconset0413 {
+        font-size: 24rpx;
+        padding: 0 28rpx;
+        color: #e2e2e2;
+}
+.goods .goods-param .goods-param-prop {
+      padding: 0 30rpx;
+}
+.goods .goods-param .goods-param-prop .goods-param-prop-item {
+        height: 108rpx;
+        border-bottom: 1px solid #e2e2e2;
+}
+.goods .goods-param .goods-param-prop .goods-param-prop-item:last-child {
+          border-bottom: none;
+}
+.goods .goods-param .goods-param-prop .goods-param-prop-item .goods-param-prop-item-name {
+          width: 120rpx;
+          color: #666;
+}
+.goods .goods-param .goods-param-prop .goods-param-prop-item .goods-param-prop-item-value {
+          margin-left: 50rpx;
+}
+.goods .goods-detail {
+    margin-top: 20rpx;
+    padding: 30rpx 20rpx;
+    background: #ffffff;
+}
+.goods .goods-detail .goods-detail-tit {
+      line-height: 64rpx;
+      font-size: 36rpx;
+      text-align: center;
+}
+.goods .goods-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 106rpx;
+    padding-left: 30rpx;
+    border-top: 1px solid #e2e2e2;
+    background: #ffffff;
+}
+.goods .goods-bottom .goods-bottom-price {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      font-size: 24rpx;
+}
+.goods .goods-bottom .goods-bottom-price .text-color-important {
+        color: #f74c45;
+}
+.goods .goods-bottom .goods-bottom-price .text-color-important .font-size-lg {
+          font-size: 48rpx;
+}
+.goods .goods-bottom .goods-bottom-try,
+    .goods .goods-bottom .goods-bottom-confirm {
+      width: 238rpx;
+      line-height: 106rpx;
+      text-align: center;
+      color: #fff;
+}
+.goods .goods-bottom .goods-bottom-try {
+      background: #4f4d55;
+}
+.goods .goods-bottom .goods-bottom-confirm {
+      background: #00b5c4;
+}
+.goods .goods-popup-mask {
+    position: fixed;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    top: 0;
+    bottom: 106rpx;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+.goods .goods-popup {
+    position: fixed;
+    z-index: 1000;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    bottom: 107rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 40rpx 30rpx 0;
+    background: #ffffff;
+}
+.goods .goods-popup .select-img {
+      width: 200rpx;
+      height: 200rpx;
+}
+.goods .goods-popup .select-info {
+      margin-left: 20rpx;
+}
+.goods .goods-popup .select-info .select-info-name {
+        height: 120rpx;
+        line-height: 40rpx;
+        overflow: hidden;
+}
+.goods .goods-popup .select-info .select-info-type {
+        line-height: 40rpx;
+        font-size: 24rpx;
+        color: #999;
+}
+.goods .goods-popup .select-info .select-info-price {
+        line-height: 40rpx;
+        font-size: 24rpx;
+        color: #999;
+}
+.goods .goods-popup .select-type {
+      margin-top: 30rpx;
+}
+.goods .goods-popup .select-type .select-type-tit {
+        line-height: 40rpx;
+        margin-bottom: 20rpx;
+}
+.goods .goods-popup .select-type .select-type-item {
+        display: inline-block;
+        height: 76rpx;
+        line-height: 76rpx;
+        background: #f2f2f2;
+        padding: 0 30rpx;
+        margin-right: 30rpx;
+        font-size: 24rpx;
+        -webkit-border-radius: 6rpx;
+                border-radius: 6rpx;
+}
+.goods .goods-popup .select-type .type-actived {
+        background: #00b5c4;
+        color: #fff;
+}
+.goods .goods-popup .select-number {
+      margin-top: 30rpx;
+}
+.goods .goods-popup .select-number .select-number-tit {
+        line-height: 40rpx;
+}
+.goods .goods-popup .select-number .select-number-con {
+        margin: 30rpx 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+}
+.goods .goods-popup .select-number .select-number-con .reserve {
+          font-size: 24rpx;
+          color: #999;
+          margin-left: 20rpx;
+}
+.goods .goods-popup .select-daterange .select-daterange-tit {
+      line-height: 40rpx;
+}
+.goods .goods-popup .select-daterange .select-daterange-con {
+      padding: 0 20rpx;
+}
+.goods .goods-popup .select-daterange .select-daterange-con-item {
+        line-height: 90rpx;
+        border-bottom: 1px solid #e2e2e2;
+}
+.goods .goods-popup .select-daterange .select-daterange-con-item:last-child {
+          border-bottom: none;
+}
+.goods .goods-popup .select-daterange .select-daterange-con-item .name,
+        .goods .goods-popup .select-daterange .select-daterange-con-item .value,
+        .goods .goods-popup .select-daterange .select-daterange-con-item .iconfont {
+          color: #999;
+          font-size: 24rpx;
+}
+

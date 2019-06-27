@@ -1,0 +1,156 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/notice/rate",
+			"style": {
+				"navigationBarTitleText": "服务评价"
+			}
+		},
+		{
+			"path": "pages/notice/progressDetail",
+			"style": {
+				"navigationBarTitleText": "服务进度详情"
+			}
+		},
+		{
+			"path": "pages/notice/progress",
+			"style": {
+				"navigationBarTitleText": "服务进度"
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/device/deviceList",
+			"style": {
+				"navigationBarTitleText": "我的设备"
+			}
+		},
+		{
+			"path": "pages/device/device",
+			"style": {
+				"navigationBarTitleText": "设备"
+			}
+		},
+		{
+			"path": "pages/device/bindDevice",
+			"style": {
+				"navigationBarTitleText": "绑定设备"
+			}
+		},
+		{
+			"path": "pages/index/addressEdit",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		},
+		{
+			"path": "pages/index/address",
+			"style": {
+				"navigationBarTitleText": "收货地址管理"
+			}
+		},
+		{
+			"path": "pages/index/pay",
+			"style": {
+				"navigationBarTitleText": "确认交易"
+			}
+		},
+		{
+			"path": "pages/index/orderConfirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/index/goods",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"bounce": "none" // 禁用页面回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/order",
+			"style": {
+				"navigationBarTitleText": "立即租赁"
+			}
+		},
+		{
+			"path": "pages/login/resetpasswd",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "立升",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#868597",
+		"selectedColor": "#75cad1",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tab-index.png",
+				"selectedIconPath": "static/images/tab-index-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/device/device",
+				"iconPath": "static/images/tab-device.png",
+				"selectedIconPath": "static/images/tab-device-current.png",
+				"text": "设备"
+			},
+			{
+				"pagePath": "pages/notice/notice",
+				"iconPath": "static/images/tab-notice.png",
+				"selectedIconPath": "static/images/tab-notice-current.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/tab-user.png",
+				"selectedIconPath": "static/images/tab-user-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}

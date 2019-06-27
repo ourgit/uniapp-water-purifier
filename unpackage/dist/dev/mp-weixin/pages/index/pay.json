@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "确认交易",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon"
+  }
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/******************* 颜色变量 ***********************/
+/* 主题色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 行为相关颜色 */
+/*********************** 尺寸变量 ***********************/
+/* 文字尺寸 */
+/* Border Radius */
+/************************ 通用 ********************************/
+page {
+  height: 100%;
+  line-height: 1.8;
+  background: #f2f2f2;
+  font-size: 30rpx;
+  color: #333;
+}
+/* 大按钮 */
+.submit-btn {
+  margin: 50rpx 0;
+}
+.submit-btn button {
+    height: 95rpx;
+    line-height: 95rpx;
+    font-size: 34rpx;
+    color: #fff;
+    background: #00b5c4;
+    -webkit-border-radius: 12rpx;
+            border-radius: 12rpx;
+}
+/* 标题 */
+.uni-h1 {
+  font-size: 80rpx;
+  font-weight: bold;
+}
+.uni-h2 {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.uni-h3 {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.uni-h4 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.uni-h5 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+/* 无数据 */
+.no-data {
+  text-align: center;
+  line-height: 120rpx;
+  color: #999;
+}
+/* 强调色 */
+.color-important {
+  color: #f74c45;
+}
+/* 溢出隐藏 */
+.text-overflow-three,
+.text-overflow-one,
+.text-overflow-two {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.text-overflow-one {
+  -webkit-line-clamp: 1;
+}
+.text-overflow-two {
+  -webkit-line-clamp: 2;
+}
+.text-overflow-three {
+  -webkit-line-clamp: 3;
+}
+/* flex */
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.flex-center-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-center-around {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.progress-detail {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 90rpx 0 0 60rpx;
+  background: #ffffff;
+}
+.progress-detail-list {
+    margin-bottom: 66rpx;
+}
+.progress-detail-list-time {
+      text-align: center;
+}
+.progress-detail-list-date {
+      font-size: 22rpx;
+      text-align: center;
+      color: #999;
+}
+.progress-detail-list .bull {
+      margin: 0 30rpx;
+      color: #00b5c4;
+}
+.progress-detail-list-text {
+      font-weight: bold;
+}
+.progress-detail .submit-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "立即租赁",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-city-picker"
+  }
+}

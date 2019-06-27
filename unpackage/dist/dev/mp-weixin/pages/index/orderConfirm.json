@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box",
+    "uni-icon": "/components/uni-icon"
+  }
+}

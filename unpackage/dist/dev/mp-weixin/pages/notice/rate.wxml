@@ -1,0 +1,1 @@
+<view class="score"><view class="score-star"><com-stars vue-id="1" innerScore="3" bind:__l="__l"></com-stars></view><view class="score-detail"></view></view>

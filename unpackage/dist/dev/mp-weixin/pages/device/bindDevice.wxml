@@ -1,0 +1,1 @@
+<view class="bind-device"><view class="bind-device-tit">请输入序列号：</view><input class="bind-device-input flex-center" type="number" value="{{serialNumber}}"/><view class="submit-btn"><button data-event-opts="{{[['tap',[['toPage',['deviceList']]]]]}}" bindtap="__e">确定</button></view></view>

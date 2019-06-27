@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/notice/rate",
+    "pages/notice/progressDetail",
+    "pages/notice/progress",
+    "pages/notice/notice",
+    "pages/device/deviceList",
+    "pages/device/device",
+    "pages/device/bindDevice",
+    "pages/index/addressEdit",
+    "pages/index/address",
+    "pages/index/pay",
+    "pages/index/orderConfirm",
+    "pages/index/goods",
+    "pages/index/index",
+    "pages/index/order",
+    "pages/login/resetpasswd",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "立升",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#868597",
+    "selectedColor": "#75cad1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tab-index.png",
+        "selectedIconPath": "static/images/tab-index-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "iconPath": "static/images/tab-device.png",
+        "selectedIconPath": "static/images/tab-device-current.png",
+        "text": "设备"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "iconPath": "static/images/tab-notice.png",
+        "selectedIconPath": "static/images/tab-notice-current.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/images/tab-user.png",
+        "selectedIconPath": "static/images/tab-user-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
